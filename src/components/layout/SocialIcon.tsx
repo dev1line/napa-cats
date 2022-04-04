@@ -30,7 +30,7 @@ const SocialIcon = () => {
       >
         <IconButton shape="circle" icon={<img src={Unknow} alt="twitter" />} />
       </a> */}
-      <a href="https://testnets.opensea.io/napa-mutantcats-v2" target="_blank" rel="noreferrer">
+      <a href="https://testnets.opensea.io/collection/napa-mutantcats-v2" target="_blank" rel="noreferrer">
         <IconButton shape="circle" icon={<img src={Opensea} alt="Opensea" />} />
       </a>
     </>
