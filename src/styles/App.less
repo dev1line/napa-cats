@@ -1,0 +1,30 @@
+@import '/src/assets/fonts/stylesheet.css';
+@import './override.less';
+@import './utility.less';
+
+:root {
+  /* Colors: */
+  --primary: #ffd43c;
+  --link: #1890ff;
+
+  /* font */
+  --mono: 'Azeret Mono', monospace;
+  --sans: 'Americane', sans-serif;
+
+  /* Sizes: */
+  --container: 1080px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--mono);
+  overflow-x: hidden;
+}

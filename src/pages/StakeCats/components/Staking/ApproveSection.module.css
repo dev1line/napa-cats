@@ -1,0 +1,27 @@
+.approveBtn {
+  margin-left: 20px;
+}
+
+.approveContainer {
+  margin-top: 40px;
+}
+
+.card {
+  width: 378px;
+  height: 155px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 32px;
+  margin-top: 24px;
+}
+
+.withdrawBtn {
+  margin-bottom:10px;
+}
+
+@media (max-width: 992px) {
+  .approveBtn {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}

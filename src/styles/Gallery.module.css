@@ -1,0 +1,101 @@
+.container {
+  /* width: 250px; */
+  margin-left: 60px;
+  width: 100%;
+}
+
+.imgRow {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imgRow > div {
+  margin: 0 40px 0 0;
+}
+
+.imgContainer {
+  position: relative;
+  font-size: 16px;
+  width: 243px;
+  height: 266px;
+  background: rgb(25, 27, 31);
+}
+
+.opensea {
+  background-color: white;
+  border-radius: 1000px;
+  width: 105px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  bottom: 15px;
+  right: 5%;
+}
+
+.opensea :global a {
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.opensea img {
+  margin-right: 5px;
+}
+
+.loader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 32px;
+}
+
+@media (max-width: 1500px) {
+  .imgRow > div {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .container{
+    text-align: center;
+  }
+  .imgRow  {
+    justify-content: center;
+  }
+  .imgRow >div {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    margin-left: 0;
+    text-align: center;
+  }
+  .imgContainer {
+    margin: 30px auto 10px;
+  }
+  .imgRow > div {
+    margin: 0;
+  }
+  .imgRow {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 550px) {
+  .imgRow {
+    display: block;
+    text-align: center;
+  }
+  .imgRow span {
+    text-align: center;
+  }
+}

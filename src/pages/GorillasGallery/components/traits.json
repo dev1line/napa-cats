@@ -1,0 +1,203 @@
+{
+  "SimpleGorilla": {
+    "plain": 2,
+    "stencil": 1
+  },
+  "EvilGorilla": {
+    "danger": 1,
+    "evil": 2,
+    "deception": 2,
+    "evilskull": 2,
+    "exodark": 1,
+    "evilflesh": 1,
+    "palpatine": 1
+  },
+  "Accessories": {
+    "cape": 994,
+    "radioactivefloatie": 1539,
+    "toxictubing": 1836,
+    "bees&beetles": 1083,
+    "floatie": 1412,
+    "purplecape": 1057,
+    "snake": 69
+  },
+  "Clothing": {
+    "scarletbowtie": 577,
+    "redpower": 691,
+    "hoodie": 45,
+    "slime": 270,
+    "scarf": 136,
+    "mushrooms": 219,
+    "purpletentacles": 746,
+    "neonhoodie": 61,
+    "bowtie": 538,
+    "fungalshroom": 298,
+    "purphoodie": 107,
+    "tentacles": 711,
+    "greenbowtie": 553,
+    "greenscarf": 186,
+    "purpslime": 338,
+    "purpmushrooms": 256,
+    "spikes": 475,
+    "formalshirt": 337,
+    "power": 650,
+    "opensoul": 796
+  },
+  "Background": {
+    "maroon": 694,
+    "dark": 477,
+    "awaken": 379,
+    "bling": 48,
+    "minimal": 414,
+    "gradient": 875,
+    "neohn": 176,
+    "neongreen": 650,
+    "lime": 287,
+    "purple": 752,
+    "deepblu": 149,
+    "blurp": 88,
+    "sensory": 212,
+    "galaxy": 773,
+    "forest": 511,
+    "portrait": 551,
+    "aqua": 616,
+    "juice": 338
+  },
+  "EvilClothing": {
+    "evilhoodie": 10
+  },
+  "Gorilla": {
+    "christmas": 92,
+    "grape": 51,
+    "mono": 302,
+    "purple": 185,
+    "blurp": 102,
+    "fishisfish": 401,
+    "skull": 655,
+    "purpleexo": 362,
+    "electric": 571,
+    "volcanic": 242,
+    "iceexo": 357,
+    "spider": 130,
+    "upgrade": 178,
+    "redbudding": 562,
+    "budding": 500,
+    "exoape": 353,
+    "radioactivehybrid": 664,
+    "redscales": 481,
+    "vegan": 489,
+    "hybrid": 622,
+    "cherry": 224,
+    "organic": 442,
+    "clueless": 25
+  },
+  "SimpleBackground": {
+    "purpleway": 1,
+    "orangedream": 1,
+    "creamdream": 1
+  },
+  "Head": {
+    "aviators": 965,
+    "plant": 444,
+    "flower": 74,
+    "catears": 534,
+    "redhorn": 1066,
+    "mask": 148,
+    "redcat": 621,
+    "cutehead": 284,
+    "intellectual": 226,
+    "coolglasses": 890,
+    "horn": 899,
+    "present": 373,
+    "redmagic": 755,
+    "magicrilla": 711
+  },
+  "RareClothing": {
+    "rainbowslime": 25,
+    "rainbowshrooms": 25,
+    "rainowtentacles": 37,
+    "xrayvision": 50,
+    "rainbowfloatie": 35,
+    "rainbowbowtie": 36,
+    "rainbowcape": 28,
+    "evilhoodie": 8,
+    "mutanteater": 28,
+    "rainbowspikes": 24,
+    "radioactivetubing": 54,
+    "rainbowsnake": 16,
+    "rainbowscarf": 20,
+    "radioactivetentacles": 49,
+    "bomber": 42
+  },
+  "CrownGorilla": {
+    "skull": 4,
+    "volcanic": 3,
+    "upgrade": 3,
+    "palpatine": 3,
+    "clueless": 2
+  },
+  "CrownBackground": {
+    "creamdream": 3,
+    "maroon": 5,
+    "bling": 2,
+    "aqua": 5
+  },
+  "RareHead": {
+    "rainbowcat": 300,
+    "rainbowintellect": 177
+  },
+  "RareGorilla": {
+    "clueless": 40,
+    "budding": 73,
+    "hybrid": 87,
+    "flesh": 40,
+    "spider": 29,
+    "soda": 7,
+    "skull": 85,
+    "iceexo": 64,
+    "volcanic": 52
+  },
+  "ChickBackground": {
+    "bling": 8
+  },
+  "ChickGorilla": {
+    "organic": 1,
+    "clueless": 1,
+    "skull": 1,
+    "vegan": 1,
+    "hybrid": 1,
+    "budding": 1,
+    "spider": 1,
+    "redscales": 1
+  },
+  "EvilBackground": {
+    "itsyellow": 2,
+    "abyss": 1,
+    "aqua": 7
+  },
+  "RareBackground": {
+    "orangedream": 88,
+    "abyss": 59,
+    "purpleway": 115,
+    "shininglight": 93,
+    "galaxy": 122
+  },
+  "CrownHead": {
+    "crown": 15
+  },
+  "AbstractApes": {
+    "electro": 1
+  },
+  "AbstractBackground": {
+    "minimal": 1
+  },
+  "OriginGorilla": {
+    "origin": 1
+  },
+  "OriginBackground": {
+    "beginning": 1
+  },
+  "ChickHead": {
+    "chick": 8
+  }
+}

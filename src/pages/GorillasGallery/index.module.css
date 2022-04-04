@@ -1,0 +1,33 @@
+.container {
+  padding: 5% 10%;
+  display: flex;
+}
+
+.filterDrawer :global .ant-drawer-content-wrapper {
+  width: 100% !important;
+}
+
+.filterBtn {
+  display: none;
+}
+
+/* @media (max-width: 1440px) {
+  .container {
+    padding: 5%;
+  }
+} */
+
+@media (max-width: 960px) {
+  .container {
+    display: block;
+    padding: 2%;
+  }
+
+  .filterBtn {
+    display: block;
+    position: fixed;
+    top: 140px;
+    right: 20px;
+    z-index: 2;
+  }
+}

@@ -1,0 +1,37 @@
+.pageTitle {
+  font-size: 45px;
+  color: #ffba3b;
+  font-weight: 900;
+  line-height: 50px;
+  font-family: 'Americane';
+  margin-bottom: 30px;
+}
+.description {
+  font-size: 18px;
+  line-height: 40px;
+  margin-top: 20px;
+  font-family: 'Azeret Mono';
+}
+.steakPercentWrap {
+  user-select: none;
+  text-align: right;
+}
+.stakePercent {
+  font-size: 105px;
+  background: -webkit-linear-gradient(#ffd43c, #ffba3b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-family: 'Americane';
+}
+.stakePercentText {
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 30.77px;
+}
+
+@media screen and (max-width: 992px) {
+  .steakPercentWrap {
+    text-align: left;
+  }
+}

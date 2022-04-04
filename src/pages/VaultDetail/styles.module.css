@@ -1,0 +1,80 @@
+.vaultDetailCointainer {
+  padding: 67px 50px 0 50px;
+}
+
+.vaultItemImage {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.vaultImage {
+  width: 616px;
+}
+
+.line {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 60px 0;
+}
+
+.vaultName {
+  font-family: 'Americane';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 55px;
+  color: #ffba3b;
+}
+
+.contentVault {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 616px;
+}
+
+.vaultCreateBy {
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 25px;
+}
+
+.vaultContent {
+  margin: 30px 0;
+  font-family: 'Azeret Mono';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.fullscreenImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vaultImageFullscreen {
+  height: 100vh;
+}
+
+.backBtn {
+  width: 100px;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 700px) {
+  .vaultImage {
+    width: 400px;
+  }
+
+  .vaultImageFullscreen {
+    height: 50vh;
+  }
+}

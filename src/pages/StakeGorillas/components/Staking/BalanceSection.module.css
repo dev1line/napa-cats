@@ -1,0 +1,73 @@
+.text {
+  color: #000000;
+  font-family: 'Americane';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.serumWrap {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.textTotal {
+  color: #000000;
+  font-family: 'Azeret Mono';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  display: block;
+}
+
+.imageWrap {
+  position: relative;
+  display: inline-block;
+  margin-right: 16px;
+  margin-top: 20px;
+}
+
+.level {
+  position: absolute;
+  background-color: #000000;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 0 5px;
+  bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .level {
+    transform: translate(2%, -5%);
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+ .claim {
+   margin:10px auto 20px;
+   display: block;
+   text-align: center;
+
+ }
+.textStack{
+  display: block;
+}
+.text,.textWallet {
+  display:block;
+  text-align: center;
+  margin-top:10px;
+}
+.imageWrap{
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+}
+
+}

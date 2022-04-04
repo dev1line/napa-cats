@@ -1,0 +1,149 @@
+.imgContainer {
+  position: relative;
+  display: flex;
+}
+
+.imgContainer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.levelGorilla {
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 0 5px;
+  transform: translate(0, 9%);
+  z-index: 10;
+}
+
+.modalContent {
+  padding: 16px 24px;
+}
+
+.appetiteWrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  margin: 20px 0;
+  background-color: #e5e5e5;
+}
+
+.fishWrap {
+  display: flex;
+}
+
+.level2 {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  z-index: 11;
+  background-color: black;
+  left: 2px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.fishWrap div {
+  flex: 1;
+  height: 64px;
+  width: 71.75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #e5e5e5;
+  margin-right: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.active {
+  border: 2px solid #ffba3b !important;
+}
+
+.disabled {
+  border: 2px solid #eee !important;
+  background-color: rgb(223, 223, 223);
+  pointer-events: none;
+}
+
+.fishWrap div:last-child {
+  margin-right: 0;
+}
+
+.buttonWrap {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.appetite {
+  font-family: 'Americane';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29.54px;
+  color: black;
+}
+
+.chooseAppetite {
+  font-weight: 600;
+  line-height: 14px;
+  color: black;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.modalFeed :global .ant-modal-content {
+  background-color: white;
+  color: black;
+}
+
+.modalFeed :global .ant-modal-header {
+  background-color: white;
+  color: black;
+  border: none;
+  padding-top: 30px;
+}
+
+.modalFeed :global .ant-modal-header b {
+  font-family: 'Americane';
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.modalFeed :global .ant-modal-title {
+  color: black;
+}
+.modalFeed :global .ant-modal-close-x {
+  color: black;
+}
+.modalFeed :global .ant-modal-close:focus,
+.modalFeed :global .ant-modal-close:hover {
+  color: black;
+}
+.amountCaculated {
+  margin-right: 15px;
+  font-family: 'Americane';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29.54px;
+  color: black;
+}
+.level {
+  color: black;
+}
+
+@media (max-width: 414px) {
+  .imgRow {
+    width: 302px;
+  }
+}

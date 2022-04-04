@@ -1,0 +1,102 @@
+.vaultContainer {
+  padding: 5% 10%;
+}
+
+.text {
+  font-family: 'Americane';
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffba3b;
+  margin-bottom: 0;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.valueContainer {
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: right;
+}
+
+.imageContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.itemVaultImageWrap {
+  border: 1px solid #ffffff;
+  height: 550px;
+  padding: 0px 25px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.itemVaultImageWrap:hover {
+  cursor: pointer;
+}
+
+.vaultName {
+  font-family: 'Americane';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.vaultCreateBy {
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.valuePrice {
+  margin-bottom: 64px;
+}
+
+@media screen and (max-width: 1200px) {
+  .itemVaultImageWrap {
+    width: 350px;
+  }
+  .vaultImage {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .imageContainer {
+    justify-content: center;
+  }
+
+  .itemVaultImageWrap {
+    width: 450px;
+  }
+
+  .vaultImage {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .imageContainer {
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,155 @@
+{
+    "CrownedMutant": {
+        "radioactive": 4,
+        "melting": 4,
+        "spiked": 4,
+        "anatomical": 4,
+        "agnatha": 4,
+        "cyclops": 4,
+        "infected": 4,
+        "toxic": 4,
+        "bullous": 4
+    },
+    "SpecialHeadwear": {
+        "rainbowhat": 125,
+        "fungal": 136
+    },
+    "Headwear": {
+        "maroon": 1038,
+        "captain": 646,
+        "partyhat": 122,
+        "neonfedora": 1351,
+        "treeoflife": 923,
+        "cap": 256,
+        "bowtie": 116,
+        "magician": 543,
+        "crimson": 1172,
+        "redfedora": 1290,
+        "neoncap": 377,
+        "darkcap": 993,
+        "fedora": 819
+    },
+    "Clothing": {
+        "dripmachine": 1234,
+        "torngreen": 316,
+        "redshirt": 1055,
+        "tornred": 471,
+        "tornpurple": 1536,
+        "redpuffer": 651,
+        "saucy": 751,
+        "neonshirt": 1181,
+        "ripped": 165,
+        "lungchain": 870,
+        "tornbrown": 1416
+    },
+    "Mutant": {
+        "bullous": 927,
+        "infected": 417,
+        "agnatha": 856,
+        "skeletal": 1537,
+        "spiked": 598,
+        "cyclops": 1094,
+        "reptilian": 1342,
+        "radioactive": 708,
+        "anatomical": 487,
+        "zombie": 1305,
+        "melting": 116,
+        "toxic": 259
+    },
+    "SpecialMutant": {
+        "bullous": 46,
+        "melting": 43,
+        "infected": 40,
+        "agnatha": 40,
+        "cyclops": 40,
+        "zombie": 41,
+        "anatomical": 37
+    },
+    "AbstractMutants": {
+        "sedementary": 1,
+        "uranium": 1,
+        "mutating": 1,
+        "abstract": 1,
+        "mutantx": 1,
+        "fried": 1,
+        "psychedelic": 1,
+        "picatso": 1,
+        "neondream": 1
+    },
+    "Background": {
+        "slime": 136,
+        "blurple": 984,
+        "routed": 274,
+        "minimal": 788,
+        "calm": 579,
+        "subdued": 854,
+        "earthymix": 684,
+        "maroonsaloon": 903,
+        "neon": 73,
+        "faded": 905,
+        "nightshade": 208,
+        "bluedream": 431,
+        "galactic": 771,
+        "limelime": 518,
+        "beachmind": 706,
+        "yellowwall": 485,
+        "darkknight": 347
+    },
+    "SpecialClothing": {
+        "rainbowshirt": 99,
+        "mutantrobe": 96,
+        "goldenrobe": 92
+    },
+    "CrownedAccessories": {
+        "crown": 36
+    },
+    "Accessories": {
+        "thirdeye": 2680,
+        "moustache": 1466,
+        "blutie": 3375,
+        "piercing": 2125
+    },
+    "SpecialAccessories": {
+        "worms": 14,
+        "outgrowth": 24
+    },
+    "SpecialBackground": {
+        "minimal": 50,
+        "blurple": 60,
+        "faded": 50,
+        "maroonsaloon": 47,
+        "yellowwall": 34,
+        "subdued": 46
+    },
+    "HoloMutant": {
+        "odin": 4,
+        "shapeshifter": 4,
+        "gamma": 4,
+        "bulging": 4,
+        "lies": 4
+    },
+    "CrownedBackground": {
+        "subdued": 9,
+        "yellowwall": 9,
+        "blurple": 9,
+        "maroonsaloon": 9
+    },
+    "XrayBackground": {
+        "galactic": 1
+    },
+    "XrayMutant": {
+        "xray": 1
+    },
+    "AbstractBackground": {
+        "minimal": 9
+    },
+    "HoloBackground": {
+        "limelime": 5,
+        "nightshade": 5,
+        "routed": 5,
+        "yellowwall": 5
+    },
+    "SpecialEyewear": {
+        "80sbaby": 223
+    }
+}

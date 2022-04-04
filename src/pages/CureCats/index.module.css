@@ -1,0 +1,19 @@
+.container {
+  width: 900px;
+  margin: 75px auto;
+}
+
+.connectWallet {
+  height:70px;
+  width:200px;
+  margin:100px auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 100%;
+    margin: 0;  
+    padding: 75px 5%;
+  }
+}

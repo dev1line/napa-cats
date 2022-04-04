@@ -1,0 +1,88 @@
+@import '~antd/lib/style/themes/dark.less';
+@import '~antd/dist/antd.less'; // Import Ant Design styles by less entry
+
+@primary-color: #ffd43c;
+@link-color: #fff; // link color
+
+@success-color: #52c41a; // success state color
+@warning-color: #faad14; // warning state color
+@error-color: #f5222d; // error state color
+
+@popover-background: rgb(25, 27, 31);
+@popover-customize-border-color: #3a3a3a;
+@body-background: #6d19e1;
+@component-background: #141414;
+
+@text-color: @white;
+@text-color-secondary: #ffd43c;
+@text-color-inverse: @white;
+@icon-color-hover: fade(@white, 75%);
+@heading-color: fade(@white, 85%);
+@divider-color: rgba(255, 255, 255, 0.15);
+
+@font-size-base: 14px; // major text font size
+@border-radius-base: 8px; // major border radius
+
+// -------- Sizing  -----------
+
+@btn-height-base: 48px;
+@input-height-base: 48px;
+@modal-body-padding: 0px;
+@form-item-margin-bottom: 16px;
+
+/* Some style can't not override by variable */
+
+.ant-btn {
+  border: 2px solid #000000;
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  &:hover,
+  &:active,
+  &:focus {
+    color: rgba(0, 0, 0, 0.6);
+    border-color: #000000;
+  }
+}
+
+.ant-btn-primary {
+  border: none;
+  &:hover,
+  &:active,
+  &:focus {
+    color: rgba(0, 0, 0, 0.6);
+    border-color: none;
+  }
+}
+
+.ant-checkbox-inner {
+  border-radius: 3px;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  padding: 12px 0;
+}
+
+.ant-btn-primary[disabled],
+.ant-btn-primary[disabled]:hover,
+.ant-btn-primary[disabled]:focus,
+.ant-btn-primary[disabled]:active {
+  background-color: rgb(185, 185, 185);
+  color: rgb(148, 148, 148);
+  border-color: rgb(185, 185, 185);
+}
+
+.ant-btn[disabled],
+.ant-btn[disabled]:hover,
+.ant-btn[disabled]:focus,
+.ant-btn[disabled]:active {
+  background-color: rgb(185, 185, 185);
+  color: rgb(148, 148, 148);
+  border-color: rgb(185, 185, 185);
+}
+
+.ant-dropdown-link {
+  cursor: pointer;
+}
