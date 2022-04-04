@@ -37,7 +37,7 @@ const StakingSection = ({ stakedTokensNew, tokensOfOwner, handleUnstake, handleS
     if (selectedUnStake.length === 0) handleStake(tokensOfOwner);
     else handleStake(selectedUnStake);
   };
-  
+
   return (
     <>
       <Row>
@@ -87,7 +87,7 @@ const StakingSection = ({ stakedTokensNew, tokensOfOwner, handleUnstake, handleS
               </Row>
             )}
           </Row>
-          <Button type="primary" onClick={handleStakeCats}> 
+          <Button type="primary" onClick={handleStakeCats}>
             {isSelectUnStakeAll ? ' Stake all' : 'Stake'}
           </Button>
         </Col>
@@ -117,7 +117,7 @@ const StakingSection = ({ stakedTokensNew, tokensOfOwner, handleUnstake, handleS
             {isSelectStakeAll ? 'Unstake all' : 'Unstake'}
           </Button>
           <Typography color="black" weight={400} size={14} block mt={10}>
-            Earning {stakedTokensNew.length * 10} $FISH/day
+            Earning {stakedTokensNew.length * 10} $NFISH/day
           </Typography>
         </Col>
       </Row>

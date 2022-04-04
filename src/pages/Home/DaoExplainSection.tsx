@@ -17,16 +17,14 @@ const DaoExplainSection = () => {
           <HeadLine>The DAO explained</HeadLine>
           <TextContent>
             If you’ve spent any time in the NFT space, you’ve probably heard the term DAO (Decentralized Autonomous
-            Organization) being thrown around a lot lately. Since the Napa Mutant Cats inception and launch, we’ve
-            sought to be the foremost DAO in the metaverse, both in the value of our assets, and our governance
-            structure.
+            Organization) being thrown around a lot lately. Since the Napa Cats inception and launch, we’ve sought to be
+            the foremost DAO in the metaverse, both in the value of our assets, and our governance structure.
           </TextContent>
           <TextContent>
-            The Napa Mutant Cats DAO is owned by the community, accumulating royalties from secondary sales which are
-            then used to purchase Blue Chip NFTs in the fractionalized vault. However, this is only the tip of the
-            iceberg for what we envision of the DAO. Currently, the DAO is expanding to reflect the values of holders,
-            establishing specialized groups of community members who are dedicated to growing the project and its
-            collective success.
+            The Napa Cats DAO is owned by the community, accumulating royalties from secondary sales which are then used
+            to purchase Blue Chip NFTs in the fractionalized vault. However, this is only the tip of the iceberg for
+            what we envision of the DAO. Currently, the DAO is expanding to reflect the values of holders, establishing
+            specialized groups of community members who are dedicated to growing the project and its collective success.
           </TextContent>
           <TextContent>
             We have ambitious goals both for the overall project roadmap and the impact the DAO will have on the NFT
@@ -77,7 +75,7 @@ const DaoExplainSection = () => {
               01
             </TypographyDiv>
             <TypographyDiv mt={10} className="sans" size={28} lineHeight={40} weight="bold">
-              Gain fractional ownership of the Napa Mutant Cats community vault.
+              Gain fractional ownership of the Napa Cats community vault.
             </TypographyDiv>
           </Col>
           <Col xs={24} md={6}>

@@ -7,7 +7,7 @@ const BalanceSection = ({ fishBalance, totalFishRounded, handleClaimRewards, fis
   return (
     <>
       <Typography className="sans" color="black" weight={900} size={28}>
-        $FISH
+        $NFISH
       </Typography>
       <Row justify="space-between">
         <div className={styles.card}>
@@ -15,7 +15,7 @@ const BalanceSection = ({ fishBalance, totalFishRounded, handleClaimRewards, fis
             Account Balance
           </Typography>
           <Typography size={20} color="#000000" weight={800} block>
-            {fishBalance} $FISH
+            {fishBalance} $NFISH
           </Typography>
           <Typography size={14} color="#000000" weight={600} block>
             ~ ${(fishBalance * fishPriceUSDT).toFixed(2)} USD
@@ -25,10 +25,10 @@ const BalanceSection = ({ fishBalance, totalFishRounded, handleClaimRewards, fis
           <Row align="middle">
             <Col span={12}>
               <Typography size={14} color="#000000" weight={600} block>
-                Unclaimed $FISH
+                Unclaimed $NFISH
               </Typography>
               <Typography size={20} color="#000000" weight={800} block>
-                {totalFishRounded.toFixed(4)} $FISH
+                {totalFishRounded.toFixed(4)} $NFISH
               </Typography>
               <Typography size={14} color="#000000" weight={600} block>
                 ~ ${(totalFishRounded * fishPriceUSDT).toFixed(2)} USD

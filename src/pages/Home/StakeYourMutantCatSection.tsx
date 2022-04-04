@@ -64,22 +64,22 @@ const StakeYourMutantCatSection = () => {
         <Col xs={24} lg={14}>
           <div className="flex">
             <HeadLine>
-              Stake your Napa Mutant Cats. Earn $FISH
+              Stake your Napa Cats. Earn $NFISH
               {/* <span>🐟</span> */}
             </HeadLine>
           </div>
           <TextContent>
-            When you buy a Napa Mutant Cats NFT, you have the option to stake it. Staking is the mechanism by which
-            fractional shares of the DAO community’s vault of NFTs are distributed. These fractions are distributed
-            daily to holders in the form of our native $FISH token. Each Mutant Cat NFT can be staked to earn 10 $FISH
-            per day. $FISH can also be traded on the secondary market via SushiSwap.
+            When you buy a Napa Cats NFT, you have the option to stake it. Staking is the mechanism by which fractional
+            shares of the DAO community’s vault of NFTs are distributed. These fractions are distributed daily to
+            holders in the form of our native $NFISH token. Each Cat NFT can be staked to earn 10 $NFISH per day. $NFISH
+            can also be traded on the secondary market via SushiSwap.
           </TextContent>
           <TextContent>
-            $FISH are a key part of the MutantCats project, and will have a multitude of use cases as our project grows,
-            from raffle entries, exclusive merchandise, alpha access, and of course breeding of Napa Mutant Cats. But we
-            strongly feel that it is only scratching the surface of what $FISH could do. To celebrate this, we’re
-            holding our first-ever $FISH hackathon to explore future uses for our native token, with 50 ETH in prizes to
-            be claimed!
+            $NFISH are a key part of the NapaCats project, and will have a multitude of use cases as our project grows,
+            from raffle entries, exclusive merchandise, alpha access, and of course breeding of Napa Cats. But we
+            strongly feel that it is only scratching the surface of what $NFISH could do. To celebrate this, we’re
+            holding our first-ever $NFISH hackathon to explore future uses for our native token, with 50 ETH in prizes
+            to be claimed!
           </TextContent>
           <Divider />
 
@@ -89,7 +89,7 @@ const StakeYourMutantCatSection = () => {
                 <Typo className="sans" weight="900" size={25} lineHeight={31} color="#FFD43C">
                   {vaultMutantsStakedPercent}% &nbsp;
                 </Typo>
-                Napa Mutant Cats staked
+                Napa Cats staked
               </Typo>
               <MarginTop>
                 <Typo size={18} lineHeight={21}>
@@ -99,7 +99,7 @@ const StakeYourMutantCatSection = () => {
             </div>
 
             <Link to={routesEnum.stakeCats}>
-              <Button type="primary">Stake your Napa Mutant Cats</Button>
+              <Button type="primary">Stake your Napa Cats</Button>
             </Link>
           </StakeCatWrapper>
         </Col>
@@ -112,7 +112,7 @@ const StakeYourMutantCatSection = () => {
             <img src={SlimeWeb} alt="web" width="230px" />
             <Box>
               <Typography.Text>Current price</Typography.Text>
-              <Statictis>${fishPriceUSDT} per $FISH</Statictis>
+              <Statictis>${fishPriceUSDT} per $NFISH</Statictis>
             </Box>
             <img src={SlimeWeb} alt="web" width="230px" />
             <Box>

@@ -10,9 +10,9 @@ const HeroSection = () => {
           An infectious disease has spread on the Ethereum blockchain, causing 9,999 cats to MUTATE.
         </h1>
         <p>
-          Napa Mutant Cats is the first DAO that purchases and fractionalizes valuable blue chip NFTs to be distributed
-          to its holders. Your Zombie Cat also grants you access to exclusive perks such as future collections,
-          airdrops, giveaways, IRL events, and much more!
+          Napa Cats is the first DAO that purchases and fractionalizes valuable blue chip NFTs to be distributed to its
+          holders. Your Zombie Cat also grants you access to exclusive perks such as future collections, airdrops,
+          giveaways, IRL events, and much more!
         </p>
       </TextContainer>
 

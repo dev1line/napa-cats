@@ -52,7 +52,7 @@ const StakingSection = ({ tokensOfOwner, handleCureCats, serumOwned }: any) => {
       <Row>
         <Col xs={24} className={styles.left}>
           <Typography color="black" weight={700} size={20} mt={20} block className="sans">
-            Napa Mutant Cats ({cats.length})
+            Napa Cats ({cats.length})
           </Typography>
           <Row className={styles.imgRow} gutter={[20, 10]}>
             {cats.length ? (

@@ -15,10 +15,10 @@ const TheTeamSection = () => {
       <TextContainer>
         <HeadLine center>The Team</HeadLine>
         <TextContent center>
-          Meet your Napa Mutant Cats team! Leveraging our in-house expertise in community building, back and front-end
+          Meet your Napa Cats team! Leveraging our in-house expertise in community building, back and front-end
           development, as well as creative ideation and execution, our primary focus is continuing to provide value to
           the community and execute on our ambitious roadmap, including designing artworks for Cured Cats and VX Cats,
-          as well as future and experiences, development of staking contracts, metaverse games, and expanding on $FISH
+          as well as future and experiences, development of staking contracts, metaverse games, and expanding on $NFISH
           utility.
         </TextContent>
       </TextContainer>

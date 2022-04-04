@@ -79,7 +79,7 @@ const StakeYourMutantCatSectionInfo = () => {
         <Col xs={24} lg={14}>
           <div className="flex">
             <HeadLine>
-              Stake your Napa Mutant Cats. Earn $FISH
+              Stake your Napa Cats. Earn $NFISH
               {/* <span>🐟</span> */}
             </HeadLine>
           </div>
@@ -132,7 +132,7 @@ const StakeYourMutantCatSectionInfo = () => {
                 <Typo className="sans" weight="900" size={25} lineHeight={31} color="#FFD43C">
                   {vaultMutantsStakedPercent}% &nbsp;
                 </Typo>
-                Napa Mutant Cats staked
+                Napa Cats staked
               </Typo>
               <MarginTop>
                 <Typo size={18} lineHeight={21}>
@@ -142,7 +142,7 @@ const StakeYourMutantCatSectionInfo = () => {
             </div>
 
             <Link to={routesEnum.stakeCats}>
-              <Button type="primary">Stake your Napa Mutant Cats</Button>
+              <Button type="primary">Stake your Napa Cats</Button>
             </Link>
           </StakeCatWrapper>
         </Col>
@@ -155,7 +155,7 @@ const StakeYourMutantCatSectionInfo = () => {
             <img src={SlimeWeb} alt="web" width="230px" />
             <Box>
               <Typography.Text>Current price</Typography.Text>
-              <Statictis>${fishPriceUSDT} per $FISH</Statictis>
+              <Statictis>${fishPriceUSDT} per $NFISH</Statictis>
             </Box>
             <img src={SlimeWeb} alt="web" width="230px" />
             <Box>

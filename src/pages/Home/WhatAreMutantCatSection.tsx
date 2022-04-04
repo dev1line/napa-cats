@@ -8,13 +8,13 @@ const WhatAreMutantCatSection = () => {
     <HeroContainer>
       <Row justify="center" align="middle" gutter={{ xs: 0, sm: 0, md: 0, lg: 78 }}>
         <Col xs={24} lg={12}>
-          <HeadLine>What are Napa Mutant Cats? </HeadLine>
+          <HeadLine>What are Napa Cats? </HeadLine>
           <TextContent>
             In the not too distant future, an infectious disease is let loose on the Ethereum blockchain, causing
             widespread havoc amongst the animal population. It didn’t take long before the first creatures began to feel
-            the effects of the infection, causing 9,999 cats to mutate. These Napa Mutant Cats now have the singular
-            goal of attracting $FISH in the hopes of one day finding a cure to their hideous, yet adorable,
-            disfigurements. Each Zombie Cat NFT can be staked to earn 10 $FISH per day.
+            the effects of the infection, causing 9,999 cats to mutate. These Napa Cats now have the singular goal of
+            attracting $NFISH in the hopes of one day finding a cure to their hideous, yet adorable, disfigurements.
+            Each Zombie Cat NFT can be staked to earn 10 $NFISH per day.
           </TextContent>
 
           <TextContent>

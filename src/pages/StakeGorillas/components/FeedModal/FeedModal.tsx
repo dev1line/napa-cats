@@ -10,12 +10,12 @@ const FeedModal = ({ visible, toggleModal, data, handleFeedGorilla }: any) => {
 
   useEffect(() => {
     setAmount(+data.fishDeposited);
-    return () => setSelected(false)
+    return () => setSelected(false);
   }, [data]);
 
   const toggleClass = (e: any, value: number) => {
     setAmount(value);
-    setSelected(true)
+    setSelected(true);
   };
 
   const handleSave = async () => {
@@ -24,28 +24,36 @@ const FeedModal = ({ visible, toggleModal, data, handleFeedGorilla }: any) => {
   };
 
   const renderStyle = (value: number) => {
-    if (value < (+data.fishDeposited / data.fishFor100Boost * 100) || value === (+data.fishDeposited / data.fishFor100Boost * 100)) return `${styles.disabled}`;
+    if (
+      value < (+data.fishDeposited / data.fishFor100Boost) * 100 ||
+      value === (+data.fishDeposited / data.fishFor100Boost) * 100
+    )
+      return `${styles.disabled}`;
     if (value === amount && selected) return `${styles.active}`;
   };
   const getMultiValue = () => {
     switch (amount) {
-      case 25: return data.fishFor25Boost;
-      case 50: return data.fishFor50Boost;
-      case 100: return data.fishFor100Boost;
-      default: return 1;
+      case 25:
+        return data.fishFor25Boost;
+      case 50:
+        return data.fishFor50Boost;
+      case 100:
+        return data.fishFor100Boost;
+      default:
+        return 1;
     }
-  }
-  const feedIncreaseAmount = getMultiValue() - +data.fishDeposited
+  };
+  const feedIncreaseAmount = getMultiValue() - +data.fishDeposited;
   return (
     <Modal
       visible={visible}
-      title={<b>Feed your Mutant Gorilla</b>}
+      title={<b>Feed your Napa Gorilla</b>}
       footer={null}
       centered
       width={418}
       onCancel={() => {
-        toggleModal()
-        setSelected(false)
+        toggleModal();
+        setSelected(false);
       }}
       wrapClassName={styles.modalFeed}
     >
@@ -59,7 +67,7 @@ const FeedModal = ({ visible, toggleModal, data, handleFeedGorilla }: any) => {
           </div>
           <div className={styles.appetiteWrap}>
             <Typography.Text className={styles.level}>Current appetite</Typography.Text>
-            <Typography.Text className={styles.appetite}>{data.fishDeposited} $FISH</Typography.Text>
+            <Typography.Text className={styles.appetite}>{data.fishDeposited} $NFISH</Typography.Text>
           </div>
         </div>
         <div className={styles.line}></div>
@@ -80,8 +88,9 @@ const FeedModal = ({ visible, toggleModal, data, handleFeedGorilla }: any) => {
         </div>
         {/* <StyledInput value={amount} onChange={(e) => setAmount(+e.target.value)} /> */}
         <div className={styles.buttonWrap}>
-          {selected && <Typography.Text className={styles.amountCaculated}>{feedIncreaseAmount} $FISH</Typography.Text>
-          }
+          {selected && (
+            <Typography.Text className={styles.amountCaculated}>{feedIncreaseAmount} $NFISH</Typography.Text>
+          )}
           <Button type="primary" onClick={handleSave}>
             SAVE & SIGN
           </Button>

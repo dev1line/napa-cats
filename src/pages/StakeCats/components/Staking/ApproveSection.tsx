@@ -234,7 +234,7 @@ const ApproveSection = ({ fishPriceUSDT }: any) => {
                   Rewards
                 </Typography>
                 <Typography size={20} color="#000000" weight={800} block>
-                  {rewards.toFixed(2)} $FISH
+                  {rewards.toFixed(2)} $NFISH
                 </Typography>
                 <Typography size={14} color="#000000" weight={600} block>
                   ~ ${(rewards * fishPriceUSDT).toFixed(2)} USD

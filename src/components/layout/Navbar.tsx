@@ -23,10 +23,10 @@ const Navbar: FC = () => {
   const menu = (
     <Menu>
       <Menu.Item key="0">
-        <NavLink to="/stake/cats">Mutant Cats</NavLink>
+        <NavLink to="/stake/cats">Napa Cats</NavLink>
       </Menu.Item>
       <Menu.Item key="1">
-        <NavLink to="/stake/gorillas">Mutant Gorillas</NavLink>
+        <NavLink to="/stake/gorillas">Napa Gorillas</NavLink>
       </Menu.Item>
     </Menu>
   );
@@ -80,7 +80,7 @@ const Navbar: FC = () => {
               <NavLink to="/cureCats">Cure Cats</NavLink>
             </li>
             <li>
-              <NavLink to="/details">Detail $FISH</NavLink>
+              <NavLink to="/details">Detail $NFISH</NavLink>
             </li>
           </ul>
         </div>
@@ -107,10 +107,10 @@ const Navbar: FC = () => {
           <Space direction="vertical" size={42} align="center">
             <NavLink to="/gallery/cats">Cats Gallery </NavLink>
             <NavLink to="/gallery/gorillas">Gorillas Gallery</NavLink>
-            <NavLink to="/stake/cats">Stake Mutant Cats</NavLink>
-            <NavLink to="/stake/gorillas">Stake Mutant Gorillas</NavLink>
+            <NavLink to="/stake/cats">Stake Napa Cats</NavLink>
+            <NavLink to="/stake/gorillas">Stake Napa Gorillas</NavLink>
             <NavLink to="/cureCats">Cure Cats</NavLink>
-            <NavLink to="/details">Detail $FISH</NavLink>
+            <NavLink to="/details">Detail $NFISH</NavLink>
           </Space>
         </div>
       </Drawer>

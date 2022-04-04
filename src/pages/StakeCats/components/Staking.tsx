@@ -38,13 +38,13 @@ const Staking = ({
         <Row justify="space-between" align="bottom" className={styles.approveContainer}>
           <Col lg={12} xs={24}>
             <Typography className="sans" color="black" weight={700} size={20} block>
-              Staking Napa Mutant Cats rewards
+              Staking Napa Cats rewards
             </Typography>
             <Typography color="black" weight={400} size={14} block mt={10}>
               1. Approve the contract to enable staking.
             </Typography>
             <Typography color="black" weight={400} size={14} block>
-              2. Once complete, stake your Napa Mutant Cats tokens.
+              2. Once complete, stake your Napa Cats tokens.
             </Typography>
           </Col>
           <Col lg={12} xs={24} className={styles.left}>

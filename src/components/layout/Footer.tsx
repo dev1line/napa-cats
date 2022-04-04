@@ -15,7 +15,7 @@ const FooterComponent: FC = () => {
           <Link to="/">
             <img src={Logo} alt="logo" style={{ borderRadius: '50%', border: '3px solid #ffba3b' }} />
           </Link>
-          <div>© 2022 Napa Mutant Cats, All Rights Reserved.</div>
+          <div>© 2022 Napa Cats, All Rights Reserved.</div>
         </div>
         <div className={styles.iconWraper}>
           <SocialIcon />

@@ -13,11 +13,11 @@ const RoadMapSection = () => {
       <TextContainer>
         <HeadLine center>Roadmap</HeadLine>
         <TextContent center>
-          The Napa Mutant Cats roadmap is full of exciting twists and turns as we continue to evolve as a DAO-led
-          community, including future expansions to the Metaverse, Game Theory, and Deflationary Tokenomics. The first
-          and foremost goal is to become a Billion Dollar DAO. We will do this by continuing to acquire blue chip NFTs
-          that will appreciate over time. The second goal is to create a community founded in innovation and
-          decentralization, in spreading good vibes over FUD, and connecting a global network of amazing contributors.
+          The Napa Cats roadmap is full of exciting twists and turns as we continue to evolve as a DAO-led community,
+          including future expansions to the Metaverse, Game Theory, and Deflationary Tokenomics. The first and foremost
+          goal is to become a Billion Dollar DAO. We will do this by continuing to acquire blue chip NFTs that will
+          appreciate over time. The second goal is to create a community founded in innovation and decentralization, in
+          spreading good vibes over FUD, and connecting a global network of amazing contributors.
         </TextContent>
         <TextContent center>
           To get us there, the team has plenty of exciting milestones set out, so let’s not waste any more time and get
@@ -28,11 +28,11 @@ const RoadMapSection = () => {
       <StyledRow justify="center" align="middle" gutter={{ xs: 0, md: 0, lg: 68 }}>
         <Col xs={24} lg={18}>
           <LevelText>Level 1: ACHIEVED</LevelText>
-          <Title>Release the Napa Mutant Cats</Title>
+          <Title>Release the Napa Cats</Title>
           <Content>
-            Launch the initial collection of 9,999 infected Napa Mutant Cats on to the world, and begin the search for a
-            cure. Establish DAO wallet and begin purchasing blue chip NFTs to fractionalize and distribute via staked
-            Napa Mutant Cats
+            Launch the initial collection of 9,999 infected Napa Cats on to the world, and begin the search for a cure.
+            Establish DAO wallet and begin purchasing blue chip NFTs to fractionalize and distribute via staked Napa
+            Cats
           </Content>
         </Col>
         <CenterCol xs={24} lg={6}>
@@ -58,11 +58,11 @@ const RoadMapSection = () => {
           <LevelText>Level 3</LevelText>
           <Title>The Cured Collection</Title>
           <Content>
-            With enough blood, sweat, and $SERUM, Napa Mutant Cats will finally be able to cure themselves of their
-            horrendous disease. By buying $SERUM, or trading for $SERUM on secondary markets, holders will have to face
-            the ultimate choice: Keeping their beloved, yet beastly Napa Mutant Cats, or douse them in $SERUM, forever
-            burning the existing NFT and creating an entirely new species of Cured Cat, complete with new traits,
-            rarities, and utility!
+            With enough blood, sweat, and $SERUM, Napa Cats will finally be able to cure themselves of their horrendous
+            disease. By buying $SERUM, or trading for $SERUM on secondary markets, holders will have to face the
+            ultimate choice: Keeping their beloved, yet beastly Napa Cats, or douse them in $SERUM, forever burning the
+            existing NFT and creating an entirely new species of Cured Cat, complete with new traits, rarities, and
+            utility!
           </Content>
         </Col>
         <CenterCol xs={24} lg={6}>

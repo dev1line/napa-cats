@@ -86,30 +86,28 @@ const StakingSection = ({
           let results: any[] = [];
           if (tokensOfOwner.length) {
             results = await Promise.all(
-              tokensOfOwner.map(
-                async (item: any): Promise<any> => {
-                  const img = await mutantGorillaContract.methods.tokenURI(item).call();
-                  const removeIPFSTextImg = img.substring(7, img.length);
-                  let imgUrl = {
-                    data: {
-                      image: '',
-                    },
-                  };
-                  let img2nd = '';
-                  let removeIPFSTextImg2nd = '';
-                  try {
-                    imgUrl = await axios.get(`https://ipfs.io/ipfs/${removeIPFSTextImg}`);
-                  } catch {}
-                  try {
-                    img2nd = imgUrl?.data?.image;
-                    removeIPFSTextImg2nd = img2nd.substring(7, img2nd.length);
-                  } catch {}
-                  return {
-                    img: `https://ipfs.io/ipfs/${removeIPFSTextImg2nd}`,
-                    id: item,
-                  };
-                }
-              )
+              tokensOfOwner.map(async (item: any): Promise<any> => {
+                const img = await mutantGorillaContract.methods.tokenURI(item).call();
+                const removeIPFSTextImg = img.substring(7, img.length);
+                let imgUrl = {
+                  data: {
+                    image: '',
+                  },
+                };
+                let img2nd = '';
+                let removeIPFSTextImg2nd = '';
+                try {
+                  imgUrl = await axios.get(`https://ipfs.io/ipfs/${removeIPFSTextImg}`);
+                } catch {}
+                try {
+                  img2nd = imgUrl?.data?.image;
+                  removeIPFSTextImg2nd = img2nd.substring(7, img2nd.length);
+                } catch {}
+                return {
+                  img: `https://ipfs.io/ipfs/${removeIPFSTextImg2nd}`,
+                  id: item,
+                };
+              })
             );
           }
 
@@ -117,60 +115,57 @@ const StakingSection = ({
           let results1: any[] = [];
           if (depositOf.length) {
             results1 = await Promise.all(
-              depositOf.map(
-                async (item: any): Promise<any> => {
-                  const img = await mutantGorillaContract.methods.tokenURI(item).call();
-                  const removeIPFSTextImg = img.substring(7, img.length);
-                  let imgUrl = {
-                    data: {
-                      image: '',
-                    },
-                  };
-                  let img2nd = '';
-                  let removeIPFSTextImg2nd = '';
-                  try {
-                    imgUrl = await axios.get(`https://ipfs.io/ipfs/${removeIPFSTextImg}`);
-                  } catch {}
-                  try {
-                    img2nd = imgUrl?.data?.image;
-                    removeIPFSTextImg2nd = img2nd.substring(7, img2nd.length);
-                  } catch {}
-                  const tokenReward = await serumStakingContract.methods._tokenRewards(item).call();
-                  let totalStakingDays = DAY_STAKING;
-                  let currentStakingDays =
-                    (new Date().getTime() - tokenReward.startTime * 1000) / (60 * 60 * 24 * 1000);
-                  const fishDepositedFromWei = +library.utils.fromWei(tokenReward.fishDeposited, 'ether');
-                  if (fishDepositedFromWei >= fishFor25Boost) {
-                    totalStakingDays = +(DAY_STAKING - DAY_STAKING / 8).toFixed(1);
-                  }
-                  if (fishDepositedFromWei >= fishFor50Boost) {
-                    totalStakingDays = +(DAY_STAKING - DAY_STAKING / 4).toFixed(1);
-                  }
-                  if (fishDepositedFromWei >= fishFor100Boost) {
-                    totalStakingDays = +(DAY_STAKING - DAY_STAKING / 2).toFixed(1);
-                  }
-                  let percentage = currentStakingDays / totalStakingDays;
-                  if (percentage >= 1) {
-                    percentage = 100;
-                  } else if (percentage < 0) {
-                    percentage = 0;
-                  } else {
-                    percentage = percentage * 100;
-                  }
-                  return {
-                    img: `https://ipfs.io/ipfs/${removeIPFSTextImg2nd}`,
-                    id: item,
-                    fishDeposited: fishDepositedFromWei,
-                    startTime: tokenReward.startTime,
-                    totalStakingDays,
-                    currentStakingDays,
-                    fishFor25Boost,
-                    fishFor50Boost,
-                    fishFor100Boost,
-                    percentage,
-                  };
+              depositOf.map(async (item: any): Promise<any> => {
+                const img = await mutantGorillaContract.methods.tokenURI(item).call();
+                const removeIPFSTextImg = img.substring(7, img.length);
+                let imgUrl = {
+                  data: {
+                    image: '',
+                  },
+                };
+                let img2nd = '';
+                let removeIPFSTextImg2nd = '';
+                try {
+                  imgUrl = await axios.get(`https://ipfs.io/ipfs/${removeIPFSTextImg}`);
+                } catch {}
+                try {
+                  img2nd = imgUrl?.data?.image;
+                  removeIPFSTextImg2nd = img2nd.substring(7, img2nd.length);
+                } catch {}
+                const tokenReward = await serumStakingContract.methods._tokenRewards(item).call();
+                let totalStakingDays = DAY_STAKING;
+                let currentStakingDays = (new Date().getTime() - tokenReward.startTime * 1000) / (60 * 60 * 24 * 1000);
+                const fishDepositedFromWei = +library.utils.fromWei(tokenReward.fishDeposited, 'ether');
+                if (fishDepositedFromWei >= fishFor25Boost) {
+                  totalStakingDays = +(DAY_STAKING - DAY_STAKING / 8).toFixed(1);
                 }
-              )
+                if (fishDepositedFromWei >= fishFor50Boost) {
+                  totalStakingDays = +(DAY_STAKING - DAY_STAKING / 4).toFixed(1);
+                }
+                if (fishDepositedFromWei >= fishFor100Boost) {
+                  totalStakingDays = +(DAY_STAKING - DAY_STAKING / 2).toFixed(1);
+                }
+                let percentage = currentStakingDays / totalStakingDays;
+                if (percentage >= 1) {
+                  percentage = 100;
+                } else if (percentage < 0) {
+                  percentage = 0;
+                } else {
+                  percentage = percentage * 100;
+                }
+                return {
+                  img: `https://ipfs.io/ipfs/${removeIPFSTextImg2nd}`,
+                  id: item,
+                  fishDeposited: fishDepositedFromWei,
+                  startTime: tokenReward.startTime,
+                  totalStakingDays,
+                  currentStakingDays,
+                  fishFor25Boost,
+                  fishFor50Boost,
+                  fishFor100Boost,
+                  percentage,
+                };
+              })
             );
           }
           setGorillaForUnstake(results1);
@@ -306,9 +301,9 @@ const StakingSection = ({
           </Col>
           <Col span={12} lg={6} md={12} xs={24} className={styles.appetiteWrap}>
             <div>
-              <Typography.Text className={styles.textWallet}>Amount of $FISH fed </Typography.Text>
+              <Typography.Text className={styles.textWallet}>Amount of $NFISH fed </Typography.Text>
               <div>
-                <Typography.Text className={styles.text}>{item.fishDeposited} $FISH</Typography.Text>
+                <Typography.Text className={styles.text}>{item.fishDeposited} $NFISH</Typography.Text>
               </div>
             </div>
           </Col>
@@ -319,7 +314,7 @@ const StakingSection = ({
                 disabled={+allowance === 0 || +item.fishDeposited >= +item.fishFor100Boost}
                 className={styles.btn}
               >
-                UPDATE $FISH
+                UPDATE $NFISH
               </Button>
             ) : (
               <Button
@@ -328,7 +323,7 @@ const StakingSection = ({
                 disabled={+allowance === 0 || +item.fishDeposited >= +item.fishFor100Boost}
                 className={styles.btn}
               >
-                INCREASE $FISH
+                INCREASE $NFISH
               </Button>
             )}
           </Col>
