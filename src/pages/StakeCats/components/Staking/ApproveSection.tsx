@@ -192,7 +192,7 @@ const ApproveSection = ({ fishPriceUSDT }: any) => {
   // const isApprove = handleApprove();
   // +data.allowance !== 0;
   const { totalStakedBalance, balance, totalStakedUni, rewards, allowance } = data;
-  // console.log('allowance', allowance);
+  console.log('allowance', allowance);
   return (
     <>
       {loading !== '' && <Loading />}
@@ -209,7 +209,7 @@ const ApproveSection = ({ fishPriceUSDT }: any) => {
           </Typography>
         </Col>
         <Col lg={12} xs={24} className={styles.left}>
-          {allowance === 0 && (
+          {allowance == 0 && (
             <Button className={styles.approveBtn} onClick={handleApprove}>
               {' '}
               APPROVE CONTRACT
